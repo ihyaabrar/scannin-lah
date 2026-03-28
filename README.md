@@ -7,14 +7,28 @@
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="docs/preview-home.png" width="22%" alt="Home"/>
+  <img src="docs/preview-docs.png" width="22%" alt="Dokumen"/>
+  <img src="docs/preview-profile.png" width="22%" alt="Profil"/>
+  <img src="docs/preview-login.png" width="22%" alt="Login"/>
+</p>
+
+---
+
 ## Fitur
 
-- 📷 **Scan Dokumen** — Kamera live dengan AI edge detection (OpenCV.js + jscanify), crop perspektif otomatis/manual
-- 📚 **Multi-Scan** — Scan banyak halaman, atur urutan, gabung jadi 1 PDF
-- ✏️ **Edit** — OCR (Tesseract.js), markup, sensor/redaksi, pisah, gabung, cari & ganti
-- 🔄 **Konversi** — PDF, DOCX, TXT, JPG, PNG
-- 🤖 **Tanya AI** — Analisa isi dokumen, ringkasan, cari kata, bandingkan dokumen
-- 📁 **Manajemen Dokumen** — Grid view, viewer fullscreen, download, share, rename, hapus
+| Fitur | Deskripsi |
+|---|---|
+| 📷 **Scan** | Kamera live + AI edge detection, crop perspektif otomatis/manual |
+| 📚 **Multi-Scan** | Scan banyak halaman, atur urutan, gabung jadi 1 PDF |
+| ✏️ **Edit** | OCR, markup, sensor/redaksi, pisah, gabung, cari & ganti |
+| 🔄 **Konversi** | PDF, DOCX, TXT, JPG, PNG |
+| 🤖 **Tanya AI** | Analisa isi dokumen, ringkasan, cari kata, bandingkan |
+| 📁 **Dokumen** | Grid view, viewer fullscreen, download, share, rename, hapus |
+| 👤 **Profil** | Pengaturan, privasi, bantuan, info developer |
 
 ## Teknologi
 
@@ -27,6 +41,8 @@
 | Tesseract.js | OCR Engine (Indonesia + English) |
 | jsPDF | PDF generation |
 | Capacitor | Native Android wrapper |
+
+---
 
 ## Cara Build APK
 
@@ -63,11 +79,17 @@ Di Android Studio:
 ## Development
 
 ```bash
-npm run dev        # Jalankan dev server
+npm run dev        # Jalankan dev server (http://localhost:5173)
 npm run build      # Build production
 npm run cap:sync   # Build + sync Capacitor
 ```
 
+---
+
 ## Lisensi
 
 MIT License © 2025 Ihya' Nashirudin Abrar
+
+---
+
+<p align="center">Dibuat dengan ❤️ oleh Ihya' Nashirudin Abrar</p>
